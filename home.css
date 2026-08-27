@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
     font-family: Times New Roman;
     background-color: #41DC8E;
     color: #222222;
@@ -54,7 +53,7 @@ nav a:hover {
 main {
     max-width: 1100px;
     margin: auto;
-    padding: 70px 50px;
+    padding: 40px 20px;
 }
 
 
@@ -78,7 +77,8 @@ h3 {
 /* ---------- PARAGRAPHS ---------- */
 
 p {
-    font-size: 30px;
+    font-size: 70px;
+    text-align: center;
     line-height: 1.8;
 }
 
