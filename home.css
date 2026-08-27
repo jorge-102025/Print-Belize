@@ -81,15 +81,23 @@ p {
     text-align: center;
     line-height: 1.8;
 }
-ul{
-    font-size: 70px;
-    text-align: center;
-    line-height: 1.8;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
+
 li {
-    font-size: 70px;
-    text-align: center;
-    line-height: 1.8;
+    font-size: 50px;
+    margin-bottom: 12px;
+    padding-left: 25px;
+    position: relative;
+}
+
+li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
 }
 
 /* ---------- SERVICES ---------- */
